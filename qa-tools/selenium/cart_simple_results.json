@@ -1,0 +1,36 @@
+{
+  "summary": {
+    "total_tests": 4,
+    "passed": 3,
+    "failed": 1,
+    "success_rate": 75,
+    "test_type": "shopping_cart_simple"
+  },
+  "results": [
+    {
+      "test": "Carga de página",
+      "status": "PASSED",
+      "duration_ms": 676,
+      "details": "Título: CISNET - Sistema de Venta de Software"
+    },
+    {
+      "test": "Detectar productos",
+      "status": "PASSED",
+      "duration_ms": 22618,
+      "details": "Productos encontrados: 25"
+    },
+    {
+      "test": "Botones de carrito",
+      "status": "PASSED",
+      "duration_ms": 23463,
+      "details": "Botones encontrados: 6"
+    },
+    {
+      "test": "Icono de carrito",
+      "status": "FAILED",
+      "duration_ms": 201007,
+      "details": "No se encontró icono de carrito"
+    }
+  ],
+  "timestamp": "2025-09-06T16:44:51.233384"
+}

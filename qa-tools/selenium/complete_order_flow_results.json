@@ -1,0 +1,51 @@
+{
+  "summary": {
+    "total_tests": 6,
+    "passed": 5,
+    "failed": 1,
+    "success_rate": 83,
+    "flow_status": "SUCCESS",
+    "test_type": "complete_order_flow"
+  },
+  "results": [
+    {
+      "test": "Carga de página",
+      "status": "PASSED",
+      "duration_ms": 601,
+      "details": "Título: CISNET - Sistema de Venta de Software"
+    },
+    {
+      "test": "Login usuario",
+      "status": "PASSED",
+      "duration_ms": 8503,
+      "details": "Login exitoso con demo@example.com"
+    },
+    {
+      "test": "Agregar al carrito",
+      "status": "PASSED",
+      "duration_ms": 5140,
+      "details": "Producto agregado exitosamente"
+    },
+    {
+      "test": "Navegación a carrito",
+      "status": "PASSED",
+      "duration_ms": 69188,
+      "details": "Carrito accesible y checkout iniciado"
+    },
+    {
+      "test": "Completar pedido",
+      "status": "FAILED",
+      "duration_ms": 119549,
+      "details": "Pedido no se completó correctamente"
+    },
+    {
+      "test": "Verificación final",
+      "status": "PASSED",
+      "duration_ms": 106,
+      "details": "URL: http://localhost:5176/products/8, Título: CISNET - Sistema de Venta de Software"
+    }
+  ],
+  "final_url": "http://localhost:5176/products/8",
+  "final_title": "CISNET - Sistema de Venta de Software",
+  "timestamp": "2025-09-06T17:00:49.498026"
+}

@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "total_tests": 5,
+    "passed": 5,
+    "failed": 0,
+    "success_rate": 100.0,
+    "duration_seconds": 20.43
+  },
+  "results": [
+    {
+      "test": "TC-001: Carga de Página Principal",
+      "status": "PASSED",
+      "duration_ms": 694,
+      "details": "Título: 'CISNET - Sistema de Venta de Software', URL: http://localhost:5176/",
+      "timestamp": "2025-09-06T16:28:26.214479"
+    },
+    {
+      "test": "TC-002: Elementos de Navegación",
+      "status": "PASSED",
+      "duration_ms": 10052,
+      "details": "Navegación principal: 1 elementos; Header de la página: 6 elementos; Elementos de menú: 1 elementos; Tag header: 1 elementos; Enlaces de navegación: 37 elementos",
+      "timestamp": "2025-09-06T16:28:37.266597"
+    },
+    {
+      "test": "TC-003: Diseño Responsive",
+      "status": "PASSED",
+      "duration_ms": 3475,
+      "details": "Desktop(1920x1080): viewport 1904x880; Tablet(768x1024): viewport 752x824; Mobile(375x667): viewport 500x467",
+      "timestamp": "2025-09-06T16:28:41.741504"
+    },
+    {
+      "test": "TC-004: Elementos de Formulario",
+      "status": "PASSED",
+      "duration_ms": 37,
+      "details": "Formularios: 1; Inputs: 1; Botones: 22",
+      "timestamp": "2025-09-06T16:28:42.778818"
+    },
+    {
+      "test": "TC-005: Errores de Consola JavaScript",
+      "status": "PASSED",
+      "duration_ms": 3,
+      "details": "Errores: 0, Advertencias: 0",
+      "timestamp": "2025-09-06T16:28:43.783112"
+    }
+  ],
+  "timestamp": "2025-09-06T16:28:44.787836"
+}
