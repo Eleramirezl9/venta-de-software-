@@ -143,7 +143,6 @@ software-sales-system/
 ### Autor
 **Eddy Alexander Ramirez Lorenzana**
 - Proyecto de QA - Sistema de Venta de Software
-- Desarrollado con Manus AI
 
 ### Licencia
 MIT License - Ver archivo LICENSE para más detalles

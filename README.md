@@ -202,7 +202,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 **Eddy Alexander Ramirez Lorenzana**
 - Proyecto de QA - Sistema de Venta de Software
-- Desarrollado con Manus AI
+
 
 ## 🙏 Agradecimientos
 
