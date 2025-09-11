@@ -37,7 +37,8 @@ class Server {
         
         // CORS
         this.app.use(cors({
-            origin: process.env.CORS_ORIGIN || 'http://localhost:3001',
+            origin: process.env.CORS_ORIGIN || 'https://venta-de-software.vercel.app',
+            methods: ['GET', 'POST', 'PUT', 'DELETE'],
             credentials: true
         }));
         
