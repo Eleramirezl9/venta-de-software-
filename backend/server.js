@@ -36,11 +36,24 @@ class Server {
         this.app.use(helmet());
         
         // CORS
-        this.app.use(cors({
-            origin: process.env.CORS_ORIGIN || 'https://venta-de-software.vercel.app',
-            methods: ['GET', 'POST', 'PUT', 'DELETE'],
-            credentials: true
-        }));
+        const allowedOrigins = [
+          'https://venta-de-software.vercel.app',
+          'https://venta-de-software-135i5ni4i-eramirezl9-miumgedugts-projects.vercel.app',
+        ];
+        
+        const corsOptions = {
+          origin: (origin, callback) => {
+            if (allowedOrigins.includes(origin) || !origin) {
+              callback(null, true);
+            } else {
+              callback(new Error('Not allowed by CORS'));
+            }
+          },
+          methods: ['GET', 'POST', 'PUT', 'DELETE'],
+          credentials: true,
+        };
+        
+        this.app.use(cors(corsOptions));
         
         // Logging
         if (process.env.NODE_ENV !== 'test') {
