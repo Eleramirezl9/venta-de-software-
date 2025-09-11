@@ -22,7 +22,7 @@ api.interceptors.request.use(
     return config;
   },
   (error) => {
-    return Promise.reject(error);
+    return Promise.reject(new Error(error));
   }
 );
 
@@ -38,8 +38,7 @@ api.interceptors.response.use(
       localStorage.removeItem('user');
       window.location.href = '/login';
     }
-    
-    return Promise.reject(error);
+    return Promise.reject(new Error(error));
   }
 );
 
